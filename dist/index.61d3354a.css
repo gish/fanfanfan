@@ -241,6 +241,18 @@ img, video {
   --tw-backdrop-sepia: ;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0;
+}
+
 .col-span-12 {
   grid-column: span 12 / span 12;
 }
@@ -341,8 +353,37 @@ img, video {
   height: 100%;
 }
 
+.h-\[136px\] {
+  height: 136px;
+}
+
+.h-36 {
+  height: 9rem;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-min {
+  min-height: min-content;
+}
+
+.min-h-fit {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
 .w-\[122px\] {
   width: 122px;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-shrink-0 {
@@ -385,6 +426,14 @@ img, video {
   scroll-behavior: smooth;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -418,6 +467,12 @@ img, video {
 
 .mix-blend-difference {
   mix-blend-mode: difference;
+}
+
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .hover\:cursor-\[url\(\.\/assets\/read-cursor\.svg\)\,_pointer\]:hover {
@@ -470,10 +525,6 @@ img, video {
     margin-top: 0;
   }
 
-  .md\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
   .md\:mt-\[calc\(theme\(space\.xl\)\+theme\(space\.lg\)\+theme\(space\.sm\)\)\] {
     margin-top: 36rem;
   }
@@ -494,10 +545,6 @@ img, video {
     width: 50%;
   }
 
-  .md\:w-full {
-    width: 100%;
-  }
-
   .md\:grid-cols-24 {
     grid-template-columns: repeat(24, minmax(0, 1fr));
   }
@@ -508,6 +555,10 @@ img, video {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:pt-6 {
+    padding-top: 1.5rem;
   }
 }
 

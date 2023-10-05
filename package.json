@@ -13,7 +13,9 @@
   "devDependencies": {
     "parcel": "^2.9.3",
     "postcss": "^8.4.31",
+    "posthtml-doctype": "^1.1.1",
     "posthtml-include": "^1.7.4",
+    "posthtml-modules": "^0.9.1",
     "sharp": "^0.31.3",
     "tailwindcss": "^3.3.3"
   }
