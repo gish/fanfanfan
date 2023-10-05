@@ -1,0 +1,20 @@
+{
+  "name": "fanfanfan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.31",
+    "posthtml-include": "^1.7.4",
+    "sharp": "^0.31.3",
+    "tailwindcss": "^3.3.3"
+  }
+}

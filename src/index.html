@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body class="h-full">
+    <div class="h-full flex flex-col">
+      <include src="./header.html"></include>
+      <main class="grow mx-12">
+        <div class="flex justify-center items-center h-full">
+          <picture>
+            <img
+              src="images/projects/project3.png"
+              class="mix-blend-difference hover:cursor-[url(./assets/read-cursor.svg),_pointer]"
+            />
+            <figcaption class="uppercase text-center mt-3">
+              fanfanfan merch drop 2021
+            </figcaption>
+          </picture>
+        </div>
+      </main>
+      <footer class="mb-3 mx-2">
+        <div
+          class="flex overflow-x-auto h-20 scroll-smooth"
+          id="project-list"
+        ></div>
+      </footer>
+    </div>
+    <script src="./carousel.js" type="module" />
+  </body>
+</html>
