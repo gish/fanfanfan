@@ -1,8 +1,8 @@
 <header
-  class="flex flex-col md:flex-row md:justify-between mx-4 md:pt-6 pt-10 sticky top-0 backdrop-blur-sm backdrop-opacity-1 pb-4"
+  class="flex flex-col md:grid md:grid-cols-24 mx-4 md:pt-6 pt-10 sticky top-0 backdrop-blur-lg backdrop-opacity-1 pb-4"
 >
-  <div class="mx-auto md:w-1/2">
-    <a href="/"
+  <div class="mx-auto md:col-span-3 md:mx-0">
+    <a href="./"
       ><img
         src="./assets/fanfanfan.svg"
         class="h-5 w-[122px]"
@@ -10,15 +10,15 @@
         alt="fanfanfan logo"
     /></a>
   </div>
-  <nav class="md:w-1/2 mt-10 md:mt-0">
-    <ul class="flex justify-between">
-      <li class="uppercase text-sm underline md:w-1/2">
+  <nav class="md:w-1/2 mt-10 md:mt-0 md:col-start-14 md:col-end-24 md:w-full">
+    <ul class="flex justify-between md:grid-cols-11">
+      <li class="uppercase text-sm underline md:col-span-4">
         <a href="./project.html">Work</a>
       </li>
-      <li class="uppercase text-sm md:w-1/2">
+      <li class="uppercase text-sm md:col-span-4">
         <a href="./about.html">about</a>
       </li>
-      <li class="uppercase text-sm md:w-1/2"><a href="./">contact</a></li>
+      <li class="uppercase text-sm md:col-span-4"><a href="./">contact</a></li>
     </ul>
   </nav>
 </header>
