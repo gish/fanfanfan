@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.9.3",
+    "parcel": "^2.10.0",
     "postcss": "^8.4.31",
     "posthtml-doctype": "^1.1.1",
     "posthtml-include": "^1.7.4",
