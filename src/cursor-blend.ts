@@ -25,4 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
   project.addEventListener("mouseleave", () => {
     cursor.style.display = "none";
   });
+
+  project.addEventListener("ontouchstart", () => {
+    cursor.style.display = "none";
+  });
 });
