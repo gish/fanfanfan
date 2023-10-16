@@ -37,13 +37,26 @@ const projects: Array<Project> = [
   },
 ];
 
+const sound = () => {
+  const audio = document.createElement("audio");
+  const source = document.createElement("source");
+  const src = new URL("./assets/click.wav", import.meta.url);
+  source.src = src.toString();
+  source.type = "audio/mpeg";
+  audio.appendChild(source);
+  audio.style.opacity = "0";
+  document.body.appendChild(audio);
+  return audio;
+};
+
 document.addEventListener("DOMContentLoaded", function () {
   const imageList = document.getElementById("project-list");
   const activeProjectImage = document.getElementById(
     "active-project-image"
   ) as HTMLImageElement;
   const activeProjectName = document.getElementById("active-project-name");
-  let activeProject = projects[0];
+  let activeProject: Project | undefined = projects[0];
+  const s = sound();
 
   projects.forEach((project, i) => {
     // Skapa <picture>-elementet
@@ -70,15 +83,16 @@ document.addEventListener("DOMContentLoaded", function () {
   // Funktion som körs när ett element har skrollats längst till vänster
   function onElementScrolledToLeft(image: HTMLImageElement) {
     // Lägg till ytterligare funktionalitet här om du vill
-    if (image.src !== activeProject.src) {
+    if (image.src !== activeProject?.url.toString()) {
       if (!activeProjectName || !activeProjectImage) {
         return;
       }
-      const activeProject = projects.find(
+      activeProject = projects.find(
         (_, i) => `${i}` === image.dataset.projectNum
       );
       activeProjectImage.src = activeProject?.bigUrl.toString() ?? "";
       activeProjectName.innerText = activeProject?.name ?? "";
+      s.play();
     }
   }
 
@@ -101,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
   imageList?.addEventListener("scroll", function () {
     images.forEach(function (image: HTMLImageElement) {
       if (
-        imageList.scrollLeft >= image.offsetLeft &&
+        imageList.scrollLeft >= image.offsetLeft - 8 &&
         imageList.scrollLeft <= image.offsetLeft + image.offsetWidth
       ) {
         onElementScrolledToLeft(image);
