@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        readCursor: "url(./assets/read-cursor.svg",
+      },
       colors: {
         secondary: "#fffff9",
         primary: "#0b0a0a",

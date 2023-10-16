@@ -11,19 +11,21 @@
       <include src="./src/header.html"></include>
       <main class="grow mx-12 max-h-full">
         <div class="flex justify-center items-center h-full">
-          <picture>
-            <img
-              id="active-project-image"
-              src="images/projects/project3.png"
-              class="hover:cursor-[url(./assets/read-cursor.svg),_pointer] max-h-full"
-            />
-            <figcaption
-              class="uppercase text-center mt-3"
-              id="active-project-name"
-            >
-              fanfanfan merch drop 2021
-            </figcaption>
-          </picture>
+          <a href="./project.html">
+            <picture>
+              <img
+                id="active-project-image"
+                src="images/projects/project3.png"
+                class="max-h-full cursor-none"
+              />
+              <figcaption
+                class="uppercase text-center mt-3"
+                id="active-project-name"
+              >
+                fanfanfan merch drop 2021
+              </figcaption>
+            </picture>
+          </a>
         </div>
       </main>
       <footer class="mb-3 mx-2">
@@ -33,6 +35,12 @@
         ></div>
       </footer>
     </div>
-    <script src="./carousel.ts" type="module" />
+    <div
+      class="cursor w-24 h-9 pl-12 bg-[url('./assets/read-cursor.svg')] bg-no-repeat absolute translate-y-[-50%] translate-x-[-50%] pointer-events-none hidden z-50 mix-blend-difference cursor-none uppercase text-white leading-[200%]"
+    >
+      Read
+    </div>
+    <script src="./cursor-blend.ts" type="module"></script>
+    <script src="./carousel.ts" type="module"></script>
   </body>
 </html>
