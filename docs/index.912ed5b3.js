@@ -1,0 +1,3 @@
+document.addEventListener("DOMContentLoaded",function(){let e=document.querySelector("#active-project-image"),t=document.querySelector(".cursor");if(!e||!t){console.error("no project");return}if(!t){console.error("no cursor");return}"ontouchstart"in window||navigator.maxTouchPoints||(document.addEventListener("mousemove",e=>{t.style.left=e.clientX+"px",t.style.top=e.clientY+"px"}),e.addEventListener("mouseenter",()=>{t.style.display="block"}),e.addEventListener("mouseleave",()=>{t.style.display="none"}),e.addEventListener("ontouchstart",()=>{t.style.display="none"}))});//# sourceMappingURL=index.912ed5b3.js.map
+
+//# sourceMappingURL=index.912ed5b3.js.map

@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
+  function isTouchDevice() {
+    return "ontouchstart" in window || navigator.maxTouchPoints;
+  }
   const project = document.querySelector(
     "#active-project-image"
   ) as HTMLDivElement;
@@ -10,6 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   if (!cursor) {
     console.error("no cursor");
+    return;
+  }
+  if (isTouchDevice()) {
     return;
   }
 
