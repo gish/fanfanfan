@@ -35,6 +35,216 @@ const projects: Array<Project> = [
     url: new URL("./images/projects/project3.png?height=80", import.meta.url),
     bigUrl: new URL("./images/projects/project3.png", import.meta.url),
   },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 1",
+    url: new URL("./images/projects/project1.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project1.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 2",
+    url: new URL("./images/projects/project2.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project2.png", import.meta.url),
+  },
+  {
+    name: "Merch drop 3",
+    url: new URL("./images/projects/project3.png?height=80", import.meta.url),
+    bigUrl: new URL("./images/projects/project3.png", import.meta.url),
+  },
 ];
 
 const sound = () => {
@@ -121,5 +331,11 @@ document.addEventListener("DOMContentLoaded", function () {
         onElementScrolledToLeft(image);
       }
     });
+  });
+
+  document.addEventListener("wheel", (e) => {
+    const deltaY = e.deltaY * 0.8;
+    const scrollLeft = (imageList?.scrollLeft ?? 0) + deltaY;
+    imageList?.scrollTo({ left: scrollLeft, behavior: "smooth" });
   });
 });
