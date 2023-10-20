@@ -322,7 +322,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Lägg till en lyssnare för scroll-eventet
-  imageList?.addEventListener("scroll", function () {
+  imageList?.addEventListener("scroll", function (e) {
+    e.stopPropagation();
     images.forEach(function (image: HTMLImageElement) {
       if (
         imageList.scrollLeft >= image.offsetLeft - 8 &&
@@ -332,6 +333,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  imageList?.addEventListener("wheel", (e) => e.stopPropagation());
 
   document.addEventListener("wheel", (e) => {
     const deltaY = e.deltaY * 0.8;
