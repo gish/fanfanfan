@@ -7,7 +7,7 @@ module.exports = {
         readCursor: "url(./assets/read-cursor.svg",
       },
       colors: {
-        secondary: "#fffff9",
+        secondary: "#ffffff",
         primary: "#0b0a0a",
       },
       spacing: {
