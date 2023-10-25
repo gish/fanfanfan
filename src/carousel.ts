@@ -337,7 +337,7 @@ document.addEventListener("DOMContentLoaded", function () {
   imageList?.addEventListener("wheel", (e) => e.stopPropagation());
 
   document.addEventListener("wheel", (e) => {
-    const deltaY = e.deltaY * 0.8;
+    const deltaY = e.deltaY * 1;
     const scrollLeft = (imageList?.scrollLeft ?? 0) + deltaY;
     imageList?.scrollTo({ left: scrollLeft, behavior: "smooth" });
   });
